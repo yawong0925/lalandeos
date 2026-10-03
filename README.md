@@ -32,15 +32,17 @@ flowchart TB
     A[WASM applications] --> B[WAMR app runtime]
     B --> C[Signals, messages and permissions]
     C --> D[System services]
+    D --> L[UI/UX service]
     D --> E[FreeRTOS kernel and HAL]
-    E --> F[ESP32-S3, STM32 and comparable MCUs]
+    E --> F[ESP32, STM32 and comparable MCUs]
 
-    G[Hybrid AI service] --> C
+
+    D <--> G[Hybrid AI service]
     G --> H[On-device models]
     G --> I[Cloud models]
 
-    J[IPS UI] --> C
-    K[E-ink UI] --> C
+    L --> J[IPS UI]
+    L --> K[E-ink UI]
 ```
 
 The application layer is separated from hardware-facing services. The OS mediates access through messages and permissions, while the hybrid AI service exposes a consistent interface across local and cloud execution.
@@ -52,7 +54,7 @@ The application layer is separated from hardware-facing services. The OS mediate
 - **IPC and services**: Android-inspired signals and messages for brokered access to system capabilities.
 - **AI service layer**: Common APIs for on-device inference and configurable cloud models.
 - **Display profiles**: A responsive IPS interface and a low-refresh, low-power e-ink interface.
-- **Initial hardware focus**: ESP32-S3, STM32, and comparable small-SoC microcontrollers.
+- **Initial hardware focus**: ESP32-S3/S31, ESP32-P4, STM32-F4, and comparable small-SoC microcontrollers.
 
 ## Design principles
 
@@ -99,7 +101,7 @@ LalandeOS 是一款面向小型 SoC 微控制器的 AI 原生应用操作系统�
 - 通过消息与权限访问系统资源
 - 统一调度本地模型与灵活的云端模型
 - 同时支持 IPS 彩屏与低功耗电子墨水屏界面
-- 初期聚焦 ESP32-S3、STM32 及同类 MCU
+- 初期聚焦 ESP32-S3/S31, ESP32-P4, STM32F4 及同类 MCU
 
 项目尚处于早期开发阶段。首个可运行版本完成后，将发布构建说明、SDK、示例与开发文档。
 
@@ -118,6 +120,6 @@ LalandeOS는 소형 SoC 마이크로컨트롤러를 위한 AI 네이티브 애�
 - 메시지와 권한을 통한 시스템 자원 접근
 - 로컬 모델과 유연한 클라우드 모델을 연결하는 공통 AI 계층
 - IPS 컬러 화면과 저전력 e-ink 화면을 위한 이중 UI 방향
-- ESP32-S3, STM32 및 동급 MCU 우선 지원
+- ESP32-S3/S31, ESP-P4, STM32F4 및 동급 MCU 우선 지원
 
 현재는 초기 개발 단계입니다. 첫 실행 가능 버전이 준비되면 빌드 방법, SDK, 예제와 개발자 문서를 공개할 예정입니다.
