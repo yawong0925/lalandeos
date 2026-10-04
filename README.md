@@ -80,7 +80,7 @@ The intended distribution model has a clear boundary:
 
 - **LalandeOS Core — open source**: Planned for release under the Apache License 2.0. It includes the OS foundation, hardware abstraction, native C/C++ application APIs, system services, IPC, UI foundations, and AI service interfaces.
 
-- **LalandeOS Application Platform — commercial**: Proprietary LalandeOS components for WAMR integration, dynamic application delivery and lifecycle management, app-store connectivity, signing and certificate validation, certification workflows, and related managed services.
+- **LalandeOS Application Platform — Lagrange (commercial)**: Proprietary LalandeOS components for WAMR integration, dynamic application delivery and lifecycle management, app-store connectivity, signing and certificate validation, certification workflows, and related managed services.
 
 WAMR itself is an independent open-source project distributed under the Apache License 2.0. LalandeOS does not claim ownership of or charge a license fee for WAMR itself. Commercial licensing applies to LalandeOS-developed integration, platform components, certification, services, and associated rights.
 
