@@ -1,0 +1,201 @@
+================================================================================
+                    LALANDEOS COMMERCIAL LICENSE
+================================================================================
+
+IMPORTANT NOTICE:
+
+This is an innitial draft which can be modified and updated over time in the
+same context.
+
+Copyright (c) 2026 Worldcom Asia Limited. All rights reserved.
+
+--------------------------------------------------------------------------------
+1. DEFINITIONS
+--------------------------------------------------------------------------------
+
+1.1  "Licensed Software" means the LalandeOS Application Platform
+     components licensed under this Agreement, including the WAMR
+     integration layer, dynamic application delivery and lifecycle
+     management components, app-store connectivity modules, package
+     signing and certificate validation components, certification
+     workflows, and related managed services and documentation, as
+     identified in the applicable Order.
+
+1.2  "Order" means the ordering document, purchase order, or online
+     checkout record through which Licensee acquires rights under this
+     Agreement, specifying the licensed scope, term, and fees.
+
+1.3  "Licensee" means the individual or legal entity acquiring rights
+     under this Agreement.
+
+1.4  "LalandeOS Core" means the open-source components of the LalandeOS
+     project distributed under the Apache License 2.0, which are NOT
+     covered by this Agreement.
+
+--------------------------------------------------------------------------------
+2. LICENSE GRANT
+--------------------------------------------------------------------------------
+
+2.1  Subject to Licensee's compliance with this Agreement and payment of
+     all applicable fees, [LEGAL ENTITY NAME] ("Licensor") grants
+     Licensee a non-exclusive, non-transferable (except as permitted in
+     Section 11), non-sublicensable (except as permitted in Section 2.2),
+     revocable license to:
+
+     (a) use the Licensed Software for development, testing, and
+         integration purposes; and
+
+     (b) reproduce and distribute the Licensed Software, in object code
+         form only, solely as integrated into Licensee's products
+         ("Licensed Products"), within the scope defined in the Order
+         (e.g., number of devices, product lines, or term).
+
+2.2  Licensee may permit its direct customers to use the Licensed
+     Software solely as embedded within Licensed Products. No other
+     sublicensing is permitted.
+
+--------------------------------------------------------------------------------
+3. SCOPE AND FEES
+--------------------------------------------------------------------------------
+
+3.1  The licensed scope (device quantities, product lines, geographic
+     scope, and term) and the applicable fees are set out in the Order.
+     [DRAFTING NOTE: define your commercial model here — e.g.,
+     per-device royalty, annual platform subscription, or per-project
+     license.]
+
+3.2  Fees are non-refundable except as expressly stated in the Order.
+
+--------------------------------------------------------------------------------
+4. RESTRICTIONS
+--------------------------------------------------------------------------------
+
+Licensee shall not, and shall not permit any third party to:
+
+(a) distribute the Licensed Software on a standalone basis, separate
+    from Licensed Products;
+
+(b) reverse engineer, decompile, or disassemble the Licensed Software,
+    except to the extent such restriction is prohibited by applicable
+    law;
+
+(c) remove or alter any copyright, trademark, or proprietary notices;
+
+(d) use the Licensed Software to develop a competing application
+    distribution platform or certification service that interoperates
+    with LalandeOS Core in circumvention of this Agreement;
+
+(e) circumvent or interfere with any license-key, certificate,
+    attestation, or technical protection mechanism included in the
+    Licensed Software.
+
+--------------------------------------------------------------------------------
+5. APP STORE, SIGNING, AND CERTIFICATION SERVICES
+--------------------------------------------------------------------------------
+
+5.1  Access to the LalandeOS app store, package signing services,
+     certificate issuance, and certification programs is provided
+     subject to this Agreement and any additional service terms
+     published by Licensor.
+
+5.2  Licensor operates the root certificate authority for the official
+     LalandeOS trust chain. Licensor may suspend or revoke certificates
+     issued to Licensee upon termination of this Agreement or upon
+     Licensee's material breach.
+
+5.3  Applications distributed through the official LalandeOS store are
+     subject to store policies and revenue terms published separately.
+
+--------------------------------------------------------------------------------
+6. OWNERSHIP AND INTELLECTUAL PROPERTY
+--------------------------------------------------------------------------------
+
+6.1  Licensor retains all right, title, and interest in and to the
+     Licensed Software, including all intellectual property rights
+     therein. Nothing in this Agreement assigns any ownership to
+     Licensee.
+
+6.2  Licensee retains ownership of its own products and of any
+     independent developments, subject to Licensor's rights in the
+     Licensed Software.
+
+6.3  If Licensee provides feedback or suggestions regarding the
+     Licensed Software, Licensor may use such feedback without
+     restriction or obligation.
+
+--------------------------------------------------------------------------------
+7. TRADEMARK
+--------------------------------------------------------------------------------
+
+7.1  This Agreement grants no right to use the "LalandeOS" name, logo,
+     or other trademarks of Licensor, except that Licensee may make
+     truthful, non-misleading statements that its products are
+     "compatible with LalandeOS" or "powered by LalandeOS" subject to
+     Licensor's trademark guidelines.
+
+7.2  Any use of Licensor's trademarks in product branding or marketing
+     requires prior written approval.
+
+--------------------------------------------------------------------------------
+8. THIRD-PARTY COMPONENTS
+--------------------------------------------------------------------------------
+
+The Licensed Software may incorporate third-party open-source
+components (including WAMR, which is distributed under the Apache
+License 2.0 by its respective owners). Such components remain governed
+by their own licenses. This Agreement does not claim ownership of, or
+charge a license fee for, third-party open-source software itself;
+commercial terms apply to Licensor's integration, platform components,
+certification, and services.
+
+--------------------------------------------------------------------------------
+9. TERM AND TERMINATION
+--------------------------------------------------------------------------------
+
+9.1  This Agreement commences on the effective date of the Order and
+     continues for the term specified therein.
+
+9.2  Either party may terminate for material breach if the breach is
+     not cured within thirty (30) days of written notice.
+
+9.3  Upon termination or expiration, Licensee shall cease all
+     distribution of the Licensed Software and, except for copies
+     embedded in Licensed Products already shipped to end customers in
+     compliance with this Agreement, delete or destroy all copies in
+     its possession. Sections 6, 7, 9.3, 10, 11, and 12 survive
+     termination.
+
+--------------------------------------------------------------------------------
+10. WARRANTY DISCLAIMER AND LIMITATION OF LIABILITY
+--------------------------------------------------------------------------------
+
+10.1 THE LICENSED SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF
+     ANY KIND, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE
+     WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+     AND NON-INFRINGEMENT.
+
+10.2 TO THE MAXIMUM EXTENT PERMITTED BY LAW, LICENSOR'S TOTAL LIABILITY
+     ARISING OUT OF OR RELATED TO THIS AGREEMENT SHALL NOT EXCEED THE
+     FEES PAID BY LICENSEE IN THE TWELVE (12) MONTHS PRECEDING THE
+     CLAIM. IN NO EVENT SHALL LICENSOR BE LIABLE FOR INDIRECT,
+     INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES.
+
+--------------------------------------------------------------------------------
+11. GENERAL
+--------------------------------------------------------------------------------
+
+11.1 Assignment. Licensee may not assign this Agreement without
+     Licensor's prior written consent, except in connection with a
+     merger, acquisition, or sale of all or substantially all of its
+     assets.
+
+11.2 Governing law. [DRAFTING NOTE: specify governing law and venue —
+     e.g., "the laws of [JURISDICTION], without regard to conflict-of-
+     law principles."]
+
+11.3 Entire agreement. This Agreement, together with the Order,
+     constitutes the entire agreement regarding the Licensed Software.
+
+11.4 Notices. [DRAFTING NOTE: specify notice addresses and method.]
+
+================================================================================
