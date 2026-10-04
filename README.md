@@ -36,7 +36,7 @@ LalandeOS separates applications into two distinct layers.
 - Device makers compile these applications into the firmware image.
 - The open-source core does not include dynamic download, runtime installation, sideloading, or app-store access.
 
-### Licensed WAMR application platform
+### Licensed WAMR application platform (Lagrange Application Platform)
 
 - Sandboxed WebAssembly applications execute through WAMR.
 - The platform adds dynamic download, installation, update, removal, and lifecycle management.
@@ -49,7 +49,7 @@ Without the licensed application platform, an official LalandeOS Core build runs
 
 ```mermaid
 flowchart TB
-    subgraph LP[Licensed WAMR application platform]
+    subgraph LP[Licensed WAMR application platform - Lagrange]
         A[App store and certified packages] --> B[Download, install and update services]
         B --> C[Certificate, policy and permission validation]
         C --> D[WAMR sandbox runtime]
